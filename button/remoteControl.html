@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Button</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+<center>
+
+<div class="container">
+  <h1>Control the Car</h1>
+
+<!-- Farhana -->
+  <button type="submit" class="btn btn-info" onclick="forward()">FORWARD</button>
+<br>
+
+<!-- Didi --> 	
+<button type="submit" class="btn btn-info" onclick="right()">RIGHT</button>
+
+<!-- Zubydah -->
+<button type="submit" class="btn btn-info" onclick="left()">LEFT</button>
+<br>
+
+<!-- Arfah -->
+<button type="submit" class="btn btn-info" onclick="back()">BACKWARD</button>
+
+<br><br>
+
+<!-- Arfah -->
+  <button type="submit" class="btn btn-info" onclick="openGrab()">OPEN</button>
+<br><br>
+
+<!-- Farhana -->
+  <button type="submit" class="btn btn-info" onclick="closeGrab()">CLOSE</button>
+</div>
+
+</center>
+
+<script>
+
+<!-- Farhana -->
+  function forward(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+<!-- Didi -->
+  function right(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+<!-- Zubydah -->
+  function left(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+<!-- Arfah -->
+  function back(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+<!-- Arfah -->
+  function openGrab(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+<!-- Farhana -->
+  function closeGrab(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
