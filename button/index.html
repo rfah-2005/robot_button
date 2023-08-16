@@ -23,6 +23,10 @@
 <!-- Didi --> 	
 <button type="submit" class="btn btn-info" onclick="right()">RIGHT</button>
 
+<!-- Farhana-->
+<button type="submit" class="btn btn-info" onclick="stop()">STOP</button>
+
+	
 <!-- Zubydah -->
 <button type="submit" class="btn btn-info" onclick="left()">LEFT</button>
 <br>
@@ -86,4 +90,12 @@
 	});
   }
 
+<!-- Farhana -->
+  function stop(){
+	$.get("https://blynk.cloud/external/api/update?token=VlrEEyYCebxnAfTxa-ym8ke17zU5p-Mf&V4=0", (data, status) => {
+	  console.log(data);
+
+	});
+  }
+	
 	</script>
