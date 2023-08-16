@@ -10,17 +10,73 @@
 </head>
 <body>
 
+
+<center>
+
 <div class="container">
-  <h1>Button for ESp32 x</h1>
-  <button type="submit" class="btn btn-info" onclick="getblynk()">Click Me!</button>
+  <h1>Control the Car</h1>
+  <button type="submit" class="btn btn-info" onclick="forward()">FORWARD</button>
+<br>
+  <button type="submit" class="btn btn-info" onclick="right()">RIGHT</button>
+  <button type="submit" class="btn btn-info" onclick="left()">LEFT</button>
+<br>
+  <button type="submit" class="btn btn-info" onclick="back()">BACKWARD</button>
+
+<br><br>
+  <button type="submit" class="btn btn-info" onclick="openGrab()">OPEN</button>
+<br><br>
+  <button type="submit" class="btn btn-info" onclick="closeGrab()">CLOSE</button>
 </div>
 
+</center>
+
 <script>
-  function getblynk(){
+
+
+  function forward(){
 	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
 	  console.log(data);
 	});
   }
+
+
+  function right(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+
+  function left(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+
+  function back(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+
+  function openGrab(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+
+  function closeGrab(){
+	$.get("https://jsonplaceholder.typicode.com/posts/1", (data, status) => {
+	  console.log(data);
+	});
+  }
+
+
+
+
 </script>
 
 </body>
